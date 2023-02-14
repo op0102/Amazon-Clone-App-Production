@@ -4,6 +4,7 @@ const connectDB = require("./db/connect");
 const app = express();
 const PORT = process.env.PORT || 8005;
 const cors = require("cors");
+const path = require("path");
 const morgan = require("morgan");
 const router = require("./routes/router");
 const cookieParser = require("cookie-parser");
